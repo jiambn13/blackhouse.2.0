@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black House</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/d294018a37.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <img src="./imagenes/Group 17.png" alt="logo" class="logo" />
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./conoce.html">Conoce</a></li>
+          <li><a class="nav-link active" href="./cotiza.html">cotiza</a></li>
+          <li><a href="./ubicanos.html">Portafolio</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <img src="./imagenes/banner.png" alt="banner" class="banner" />
+      </div>
+    </header>
+
+    <div class="datocotiza">
+      <p>
+        Beber alcohol en exceso puede ser perjudicial para su salud. En los
+        Estados Unidos, el consumo excesivo de alcohol ocasionó aproximadamente
+        140 000 muertes y representó 3.6 millones de años de vida potencial
+        perdidos (AVPP) anualmente desde el 2015 al 2019, y acortó en un
+        promedio de 26 años la vida de los que fallecieron.1 Adicionalmente, el
+        consumo de alcohol en exceso fue responsable de 1 de cada 10 muertes de
+        adultos en edad laboral de entre 20 y 64 años.2 El costo económico del
+        consumo excesivo de alcohol en el 2010 se estimó en USD $249 000
+        millones o USD $2.05 dólares por bebida.
+      </p>
+    </div>
+
+    <div class="cotizaimp">
+      <div class="contenedor">
+        <img src="./imagenes/cotizados.png" class="imagencotiza" width="100%" alt="imgcotiza"/>
+      </div>
+
+      <div class="tblcotiza">
+        <form action="#" method="get" enctype="application/x-www-form-urlencoded" >
+          <input type="text" class="inputf" id="nombre" name="nombre" placeholder="Nombre" /><br /><br />
+
+          <input type="text" class="inputf" id="apellido" name="apellido" placeholder="Apellido" /><br /><br />
+
+          <input type="text" class="inputf" id="celular" name="celular" placeholder="Celular" /><br /><br />
+
+          <input type="email" class="inputf" id="correo" name="correo" placeholder="Email" /><br /><br />
+
+          <input type="text" class="inputf" id="departamento" name="departamento" placeholder="Departamento"/><br /><br />
+
+          <input type="text" class="inputf" id="municipio" name="municipio" placeholder="Municipio" /><br /><br />
+
+          <div>Seleccione de su interes:</div><br />
+
+          <input type="radio" name="inte" value="inte" />
+          <label for="inte">Vino </label><br /><br/>
+
+          <input type="radio" name="inte" value="inte" />
+          <label for="inte">Whisky </label><br /><br />
+
+          <input type="radio" name="inte" value="inte" />
+          <label for="inte">Tequila </label><br /><br />
+
+          <input type="radio" name="inte" value="inte" />
+          <label for="inte">Ron </label><br /><br />
+
+          <input type="radio" name="inte" value="inte" />
+          <label for="inte">Cerveza </label><br /><br />
+
+          <textarea name="mensaje" placeholder="Indicanos mas dudas"></textarea
+          ><br /><br />
+
+          <input type="submit" id="enviar" value="Enviar" />
+        </form>
+      </div>
+    </div>
+
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="index.html">
+              <img src="/imagenes/Group 17.png" alt="logoblackhouse" />
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>sobre nosotros</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            molestias qui, itaque cum soluta reiciendis excepturi voluptates
+            earum laudantium ipsam, modi consequuntur. Consequuntur numquam quod
+            quaerat molestiae natus voluptatibus commodi?
+          </p>
+        </div>
+        <div class="box">
+          <h2>siguenos</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2023 <b>Black House</b> Todos los derechos reservados.</small
+        >
+      </div>
+    </footer>
+  </body>
+</html>

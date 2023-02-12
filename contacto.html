@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black House</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/d294018a37.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body background-color="white">
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <a href="index.html">
+          <img src="./imagenes/Group 17.png" alt="logo" class="logo" />
+        </a>
+
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./conoce.html">Conoce</a></li>
+          <li><a href="./cotiza.html">cotiza</a></li>
+          <li><a href="./ubicanos.html">Portafolio</a></li>
+          <li><a class="actives" href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <img src="./imagenes/banner.png" alt="banner" class="banner" />
+      </div>
+    </header>
+
+    <form
+      class="row mx-5 my-5"
+      action="#"
+      method="get"
+      enctype="application/x-www-form-urlencoded"
+    >
+      <div class="col-md-6">
+        <label for="email" class="col-sm-2 col-form-label text-light"
+          >Email</label
+        >
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" name="email" />
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <label for="nombre" class="col-sm-2 col-form-label text-light"
+          >Nombre</label
+        >
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="nombre" name="nombre" />
+        </div>
+      </div>
+
+      <div class="col-6">
+        <label for="apellido" class="col-sm-2 col-form-label text-light"
+          >Apellido</label
+        >
+        <div class="col-sm-12">
+          <input
+            type="text"
+            class="form-control"
+            id="apellido"
+            name="apellido"
+          />
+        </div>
+      </div>
+
+      <div class="col-6">
+        <label for="celular" class="col-sm-2 col-form-label text-light"
+          >Celular</label
+        >
+        <div class="col-sm-12">
+          <input
+            type="number"
+            class="form-control"
+            id="celular"
+            name="celular"
+          />
+        </div>
+      </div>
+
+      <button
+        type="submit"
+        class="btn btn-outline-light my-5 col-2 mx-2 mx-auto d-block"
+      >
+        Enviar
+      </button>
+    </form>
+
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="index.html">
+              <img src="/imagenes/Group 17.png" alt="logoblackhouse" />
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>sobre nosotros</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            molestias qui, itaque cum soluta reiciendis excepturi voluptates
+            earum laudantium ipsam, modi consequuntur. Consequuntur numquam quod
+            quaerat molestiae natus voluptatibus commodi?
+          </p>
+        </div>
+        <div class="box">
+          <h2>siguenos</h2>
+          <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small
+          >&copy; 2023 <b>Black House</b> Todos los derechos reservados.</small
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
