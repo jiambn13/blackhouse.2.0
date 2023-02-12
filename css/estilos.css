@@ -237,6 +237,16 @@ textarea {
   margin: 50px;
   border: none; }
 
+/*ubicanos*/
+.ubicanos {
+  color: white;
+  text-align: center;
+  margin: 30px;
+  font-size: 20px; }
+
+.mapa {
+  margin: 50px; }
+
 @media (max-width: 1284px) {
   .enlace {
     padding-left: 20px; }
@@ -325,7 +335,7 @@ textarea {
     margin-left: 50px; }
   .inputf {
     font-size: 15px; } }
-  
+
 @media (max-width: 1260px) {
   .cotizaimp .contenedor img {
     margin-left: 20px;
