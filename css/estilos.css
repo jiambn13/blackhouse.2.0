@@ -105,7 +105,7 @@ nav ul {
       font-size: 27px;
       font-weight: 300; }
     .container .card:hover {
-      transform: translate(-15px);
+      transform: translate(-20px);
       box-shadow: 0 12px 16px; }
 
 /*footer*/
@@ -134,7 +134,7 @@ nav ul {
       font-size: 20px; }
     .pie-pagina .grupo-1 .box p {
       margin-bottom: 20px;
-      font-size: 20px; }
+      font-size: 15px; }
     .pie-pagina .grupo-1 .red-social a {
       display: inline-block;
       text-decoration: none;
@@ -166,7 +166,7 @@ nav ul {
   font-size: 20px; }
   .containers .cards {
     width: 1850px;
-    height: 600px;
+    height: auto;
     border-radius: 8px;
     box-shadow: 2px 2px 2px 2px;
     overflow: hidden;
@@ -531,4 +531,17 @@ textarea {
     border-radius: 20px;
     margin-left: 80px; }
   .inputf {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .container .card {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px;
+    overflow: hidden;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: all 0.25;
+    font-size: 20px;
+    background: white; } }
