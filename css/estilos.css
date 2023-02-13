@@ -358,19 +358,10 @@ textarea {
     .containers .cards h3 {
       padding: 0 1rem;
       font-size: 25px; }
-  .container .card {
-    width: 500px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px;
-    overflow: hidden;
-    margin: 20px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-    transition: all 0.25;
-    font-size: 20px;
-    background: white; }
+  .container .card img {
+    width: 200px;
+    height: 190px;
+    margin-top: 30px; }
   .contenedor {
     background-color: #0050f0;
     display: grid;
@@ -378,6 +369,7 @@ textarea {
     grid-template-rows: 1fr;
     margin: 40px; }
     .contenedor .cotizaimp img {
+      width: 85%;
       height: 400px;
       background-color: white;
       border-radius: 20px; }
