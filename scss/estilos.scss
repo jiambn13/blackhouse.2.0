@@ -236,6 +236,7 @@ nav {
 }
 
 /*cotiza*/
+
 .inputf {
   font-size: 17px;
   width: 100%;
@@ -251,27 +252,30 @@ textarea {
   max-width: 55px;
   border-radius: 10px;
 }
+
+.contenedor {
+  background-color: green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin: 40px;
+}
+.cotizaimp img {
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px;
+}
+
 .tblcotiza {
-  width: 500px;
   height: 700px;
   background: rgb(255, 255, 255);
   border-radius: 20px;
-  margin-left: 350px;
   padding: 10px;
+  margin: 20px;
 }
-.cotizaimp {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 50px;
 
-  .contenedor img {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    border-radius: 20px;
-    margin-left: 200px;
-    padding: 15px;
-  }
-}
 #enviar {
   background-color: rgb(0, 0, 0);
   color: white;
@@ -283,7 +287,7 @@ textarea {
 }
 .datocotiza {
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   margin: 50px;
   border: none;
@@ -345,121 +349,14 @@ textarea {
   }
 }
 @media (max-width: 1684px) {
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 50px;
-    background-color: rgb(255, 255, 255);
-    width: 600px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 10px;
-    max-width: 40%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 110px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 1430px) {
-  .imagencotiza {
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    border-radius: 20px;
-    padding: 15px;
-  }
-
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 50px;
-    background-color: rgb(255, 255, 255);
-    width: 600px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 10px;
-    max-width: 40%;
-    height: 720px;
-    background: #ffffff;
-    border-radius: 20px;
-    margin-left: 50px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 1340px) {
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 50px;
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 10px;
-    max-width: 40%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 50px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 1260px) {
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 50px;
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 5px;
-    max-width: 40%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 50px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 1120px) {
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 50px;
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 10px;
-    max-width: 40%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 50px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 1000px) {
   .checkbtn {
@@ -498,26 +395,6 @@ textarea {
   #check:checked ~ ul {
     left: 0;
   }
-
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 100px;
-    background-color: rgb(255, 255, 255);
-    width: 350px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    max-width: 35%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 10px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 900px) {
   .containers .cards {
@@ -539,47 +416,8 @@ textarea {
       font-size: 25px;
     }
   }
-
-  .cotizaimp .contenedor img {
-    margin-right: 90px;
-    background-color: rgb(255, 255, 255);
-    width: 350px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    max-width: 30%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 10px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 800px) {
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 90px;
-    background-color: rgb(255, 255, 255);
-    width: 600px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 30px;
-    max-width: 75%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 80px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 700px) {
   .containers .cards {
@@ -605,45 +443,8 @@ textarea {
   .inputf {
     font-size: 15px;
   }
-
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 90px;
-    background-color: rgb(255, 255, 255);
-    width: 500px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 30px;
-    max-width: 60%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 80px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
 }
 @media (max-width: 600px) {
-  .tblcotiza {
-    max-width: 100%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: 50px;
-    padding: 15px;
-  }
-
-  .imagencotiza {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    border-radius: 20px;
-    padding: 15px;
-  }
-
   .containers .cards {
     background: rgb(255, 255, 255);
 
@@ -664,27 +465,6 @@ textarea {
     }
   }
 
-  .cotizaimp .contenedor img {
-    margin-left: 20px;
-    margin-right: 90px;
-    background-color: rgb(255, 255, 255);
-    width: 350px;
-    border-radius: 20px;
-  }
-
-  .tblcotiza {
-    margin-top: 30px;
-    max-width: 60%;
-    height: 720px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin-left: 80px;
-  }
-
-  .inputf {
-    font-size: 15px;
-  }
-
   .container {
     .card {
       width: 500px;
@@ -700,5 +480,34 @@ textarea {
       font-size: 20px;
       background: rgb(255, 255, 255);
     }
+  }
+
+  .contenedor {
+    background-color: rgb(0, 80, 240);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px;
+
+    .cotizaimp img {
+      height: 400px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+    }
+
+    .tblcotiza {
+      height: 700px;
+      background: rgb(255, 255, 255);
+      border-radius: 20px;
+      padding: 10px;
+      margin: 20px;
+    }
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 }
