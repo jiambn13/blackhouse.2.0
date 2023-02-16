@@ -282,6 +282,18 @@ textarea {
       padding: 0 1rem;
       font-size: 27px; } }
 
+@media (max-width: 1260px) {
+  .contenedor {
+    background-color: #0095ff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px; }
+    .contenedor .cotizaimp img {
+      width: 95%; }
+    .contenedor .tblcotiza {
+      width: 95%; } }
+
 @media (max-width: 1000px) {
   .checkbtn {
     display: block; }
@@ -307,7 +319,17 @@ textarea {
       width: 100px;
       border: 100vh; }
   #check:checked ~ ul {
-    left: 0; } }
+    left: 0; }
+  .contenedor {
+    background-color: #00ff59;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px; }
+    .contenedor .cotizaimp img {
+      width: 95%; }
+    .contenedor .tblcotiza {
+      width: 95%; } }
 
 @media (max-width: 900px) {
   .containers .cards {
@@ -323,7 +345,29 @@ textarea {
       font-size: 20px; }
     .containers .cards h3 {
       padding: 0 1rem;
-      font-size: 25px; } }
+      font-size: 25px; }
+  .contenedor {
+    background-color: #ff00ae;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px; }
+    .contenedor .cotizaimp img {
+      width: 95%; }
+    .contenedor .tblcotiza {
+      width: 94%; } }
+
+@media (max-width: 800px) {
+  .contenedor {
+    background-color: #ffea00;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px; }
+    .contenedor .cotizaimp img {
+      width: 90%; }
+    .contenedor .tblcotiza {
+      width: 90%; } }
 
 @media (max-width: 700px) {
   .containers .cards {
@@ -340,8 +384,8 @@ textarea {
     .containers .cards h3 {
       padding: 0 1rem;
       font-size: 25px; }
-  .inputf {
-    font-size: 15px; } }
+    .containers .cards .inputf {
+      font-size: 15px; } }
 
 @media (max-width: 600px) {
   .containers .cards {
@@ -369,16 +413,8 @@ textarea {
     grid-template-rows: 1fr;
     margin: 40px; }
     .contenedor .cotizaimp img {
-      width: 85%;
-      height: 400px;
-      background-color: white;
-      border-radius: 20px; }
-    .contenedor .tblcotiza {
-      height: 700px;
-      background: white;
-      border-radius: 20px;
-      padding: 10px;
-      margin: 20px; }
+      width: 90%;
+      height: 400px; }
   .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

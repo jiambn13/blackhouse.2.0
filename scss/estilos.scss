@@ -355,9 +355,23 @@ textarea {
 @media (max-width: 1340px) {
 }
 @media (max-width: 1260px) {
+  .contenedor {
+    background-color: rgb(0, 149, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px;
+
+    .cotizaimp img {
+      width: 95%;
+    }
+
+    .tblcotiza {
+      width: 95%;
+    }
+  }
 }
-@media (max-width: 1120px) {
-}
+
 @media (max-width: 1000px) {
   .checkbtn {
     display: block;
@@ -395,7 +409,24 @@ textarea {
   #check:checked ~ ul {
     left: 0;
   }
+
+  .contenedor {
+    background-color: rgb(0, 255, 89);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px;
+
+    .cotizaimp img {
+      width: 95%;
+    }
+
+    .tblcotiza {
+      width: 95%;
+    }
+  }
 }
+
 @media (max-width: 900px) {
   .containers .cards {
     background: rgb(255, 255, 255);
@@ -416,8 +447,39 @@ textarea {
       font-size: 25px;
     }
   }
+  .contenedor {
+    background-color: rgb(255, 0, 174);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px;
+
+    .cotizaimp img {
+      width: 95%;
+    }
+
+    .tblcotiza {
+      width: 94%;
+    }
+  }
 }
+
 @media (max-width: 800px) {
+  .contenedor {
+    background-color: rgb(255, 234, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 40px;
+
+    .cotizaimp img {
+      width: 90%;
+    }
+
+    .tblcotiza {
+      width: 90%;
+    }
+  }
 }
 @media (max-width: 700px) {
   .containers .cards {
@@ -438,10 +500,10 @@ textarea {
       padding: 0 1rem;
       font-size: 25px;
     }
-  }
 
-  .inputf {
-    font-size: 15px;
+    .inputf {
+      font-size: 15px;
+    }
   }
 }
 @media (max-width: 600px) {
@@ -466,7 +528,7 @@ textarea {
   }
 
   .container {
-    .card img{
+    .card img {
       width: 200px;
       height: 190px;
       margin-top: 30px;
@@ -481,18 +543,8 @@ textarea {
     margin: 40px;
 
     .cotizaimp img {
-      width: 85%;
+      width: 90%;
       height: 400px;
-      background-color: rgb(255, 255, 255);
-      border-radius: 20px;
-    }
-
-    .tblcotiza {
-      height: 700px;
-      background: rgb(255, 255, 255);
-      border-radius: 20px;
-      padding: 10px;
-      margin: 20px;
     }
   }
   .parent {
@@ -502,5 +554,4 @@ textarea {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
-  
 }
