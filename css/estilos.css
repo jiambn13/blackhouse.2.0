@@ -203,7 +203,7 @@ textarea {
   border-radius: 10px; }
 
 .contenedor {
-  background-color: green;
+  background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
@@ -284,7 +284,7 @@ textarea {
 
 @media (max-width: 1260px) {
   .contenedor {
-    background-color: #0095ff;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -321,7 +321,7 @@ textarea {
   #check:checked ~ ul {
     left: 0; }
   .contenedor {
-    background-color: #00ff59;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -347,7 +347,7 @@ textarea {
       padding: 0 1rem;
       font-size: 25px; }
   .contenedor {
-    background-color: #ff00ae;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -359,7 +359,7 @@ textarea {
 
 @media (max-width: 800px) {
   .contenedor {
-    background-color: #ffea00;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -407,7 +407,7 @@ textarea {
     height: 190px;
     margin-top: 30px; }
   .contenedor {
-    background-color: #0050f0;
+    background-color: black;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
